@@ -1,0 +1,9 @@
+.sidebar {
+  transition: left 0.8s;
+  z-index: 999999999999;
+}
+i,
+li {
+  cursor: pointer;
+}
+

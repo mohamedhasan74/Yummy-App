@@ -1,0 +1,14 @@
+.overlay {
+  left: 0;
+  bottom: 0;
+  height: 0%;
+  width: 100%;
+  background-color: #f9f6f6ca;
+  z-index: 999;
+  opacity: 0;
+  transition: height 0.5s, opacity 0.5s;
+}
+.inner:hover .overlay {
+  height: 100%;
+  opacity: 1;
+}
