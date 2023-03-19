@@ -18,6 +18,11 @@ function Sidebar() {
     setWidth(ref.current.offsetWidth);
     setLeft(-ref.current.offsetWidth);
   }, []);
+  const hiden = () => {
+    setLeft(-width);
+    setOpenBtn("d-block");
+    setCloseBtn("d-none");
+  };
   const test = () => {
     if (left === 0) {
       setLeft(-width);
@@ -44,24 +49,28 @@ function Sidebar() {
             <ul className="list-unstyled">
               <Link
                 to="/Search"
+                onClick={() => hiden()}
                 className={`p-2 text-decoration-none text-white d-block animate__animated animate__faster ${delay} ${slide}`}
               >
                 Search
               </Link>
               <Link
                 to="/Categories"
+                onClick={() => hiden()}
                 className={`p-2 text-decoration-none text-white d-block animate__animated animate__faster ${delay} ${slide}`}
               >
                 Categories
               </Link>
               <Link
                 to="/Areas"
+                onClick={() => hiden()}
                 className={`p-2 text-decoration-none text-white d-block animate__animated animate__faster ${delay} ${slide}`}
               >
                 Area
               </Link>
               <Link
                 to="/Ingredients"
+                onClick={() => hiden()}
                 className={`p-2 text-decoration-none text-white d-block animate__animated animate__faster ${delay} ${slide}`}
               >
                 Ingredient
