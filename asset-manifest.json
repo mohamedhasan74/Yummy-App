@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Yummy-App/static/css/main.70fcf107.css",
+    "main.js": "/Yummy-App/static/js/main.b5900b0b.js",
+    "static/js/787.b3611026.chunk.js": "/Yummy-App/static/js/787.b3611026.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Yummy-App/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/fa-brands-400.ttf": "/Yummy-App/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/Yummy-App/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/Yummy-App/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/fa-regular-400.ttf": "/Yummy-App/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/food.jpg": "/Yummy-App/static/media/food.7cf7bd43afe4ef8fa3ba.jpg",
+    "static/media/fa-regular-400.woff2": "/Yummy-App/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Yummy-App/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Yummy-App/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/Yummy-App/index.html",
+    "main.70fcf107.css.map": "/Yummy-App/static/css/main.70fcf107.css.map",
+    "main.b5900b0b.js.map": "/Yummy-App/static/js/main.b5900b0b.js.map",
+    "787.b3611026.chunk.js.map": "/Yummy-App/static/js/787.b3611026.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70fcf107.css",
+    "static/js/main.b5900b0b.js"
+  ]
+}
